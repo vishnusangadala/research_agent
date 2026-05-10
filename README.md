@@ -133,8 +133,3 @@ GitHub are free at this scale; arXiv is always free.
 
 ---
 
-## Next steps (Project 3 of the course)
-
-Project 3 introduces **routing** — an LLM picks which downstream chain to
-run based on input. The async + structured-output patterns from this project
-carry forward; the new piece is conditional logic driven by classification.
