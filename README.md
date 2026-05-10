@@ -54,6 +54,18 @@ You'll see a per-step trace and timings, then a markdown brief lands in
 `outputs/`. The brief has cross-source triangulation: claims tagged with
 which sources back them, contradictions surfaced, gaps named.
 
+## Browser UI
+
+Run the chatbot-style interface:
+
+```bash
+python app.py
+```
+
+Then open `http://127.0.0.1:8000`. Enter a research topic, and the page will
+run the full pipeline and render the synthesized brief on screen. Use
+**Refresh** to clear the chat and start over.
+
 To **see** why parallel matters:
 
 ```bash
